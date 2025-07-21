@@ -1,0 +1,46 @@
+{
+    "name": "makaveli/laravel-accept-code",
+    "description": "Advanced Accept Code for Laravel",
+    "keywords": ["laravel", "framework"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.10|^11.0|^12.0",
+        "makaveli/laravel-login-history": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AcceptCode\\": "src/",
+            "AcceptCode\\Database\\": "src/Database/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ma1kaveli/laravel-logger"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ma1kaveli/laravel-query-builder"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ma1kaveli/laravel-converter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ma1kaveli/laravel-login-history"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "AcceptCode\\Providers\\AcceptCodeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
