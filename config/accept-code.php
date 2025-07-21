@@ -87,17 +87,17 @@ return [
     |--------------------------------------------------------------------------
     */
     'logger_slugs' => [
-        'login_accept_code' => \App\Modules\Logger\Constants\LoggerSlugs::LOGIN_ACCEPT_CODE_SLUG,
+        'login_accept_code' => 'login-accept',
 
-        'login_send_code' => \App\Modules\Logger\Constants\LoggerSlugs::LOGIN_SEND_CODE_SLUG,
+        'login_send_code' => 'login-send',
 
-        'registration' => \App\Modules\Logger\Constants\LoggerSlugs::REGISTRATION_SLUG,
+        'registration' => 'registration',
 
-        'registration_send_code' => \App\Modules\Logger\Constants\LoggerSlugs::REGISTRATION_SEND_CODE_SLUG,
+        'registration_send_code' => 'registration-send',
 
-        'reset_password_set_new' => \App\Modules\Logger\Constants\LoggerSlugs::PASSWORD_RESET_SET_NEW_SLUG,
+        'reset_password_set_new' => 'reset-password-set-new',
 
-        'reset_password_send_code' => \App\Modules\Logger\Constants\LoggerSlugs::PASSWORD_RESET_SEND_SLUG,
+        'reset_password_send_code' => 'reset-password-send-code',
     ],
 
     /*
