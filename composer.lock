@@ -2042,16 +2042,16 @@
         },
         {
             "name": "makaveli/laravel-login-history",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-login-history.git",
-                "reference": "a80fb8af8fedffc38fd3d1abe3ac698b05cfb428"
+                "reference": "d63e73ef213b068a4a0d02a550ed7edc9e8a5246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-login-history/zipball/a80fb8af8fedffc38fd3d1abe3ac698b05cfb428",
-                "reference": "a80fb8af8fedffc38fd3d1abe3ac698b05cfb428",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-login-history/zipball/d63e73ef213b068a4a0d02a550ed7edc9e8a5246",
+                "reference": "d63e73ef213b068a4a0d02a550ed7edc9e8a5246",
                 "shasum": ""
             },
             "require": {
@@ -2083,10 +2083,10 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/Ma1kaveli/laravel-login-history/tree/1.0.2",
+                "source": "https://github.com/Ma1kaveli/laravel-login-history/tree/1.0.3",
                 "issues": "https://github.com/Ma1kaveli/laravel-login-history/issues"
             },
-            "time": "2025-07-21T11:09:47+00:00"
+            "time": "2025-07-22T11:42:36+00:00"
         },
         {
             "name": "makaveli/laravel-query-builder",

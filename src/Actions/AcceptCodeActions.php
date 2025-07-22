@@ -14,7 +14,7 @@ use Crudler\Traits\DBTransaction;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use JWTAuth\JWTAuth;
-use LaravelHistory\Traits\LoginHistory;
+use LoginHistory\Traits\LoginHistory;
 use Logger\Traits\Logger;
 
 class AcceptCodeActions {
