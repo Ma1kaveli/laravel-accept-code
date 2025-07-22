@@ -51,8 +51,8 @@ class ResetPasswordAcceptCodeActions extends AcceptCodeActions {
             ),
             $user,
             'При отправке кода для сброса пароля произошла ошибка!',
-            fn () => $this->successLog(config('accept-code.logger_slugs.reset_password_send_code')),
-            fn (string $e) => $this->errorLog(config('accept-code.logger_slugs.reset_password_send_code'), $e),
+            fn () => $this->successAsyncLog(config('accept-code.logger_slugs.reset_password_send_code')),
+            fn (string $e) => $this->errorAsyncLog(config('accept-code.logger_slugs.reset_password_send_code'), $e),
         );
     }
 
@@ -94,8 +94,8 @@ class ResetPasswordAcceptCodeActions extends AcceptCodeActions {
         $user = $this->transactionConstructionWithFunc(
             $updatePassword,
             'При попытке установить новый пароль произошла ошибка!',
-            fn () => $this->successLog(config('accept-code.logger_slugs.reset_password_set_new')),
-            fn (string $e) => $this->errorLog(config('accept-code.logger_slugs.reset_password_set_new'), $e)
+            fn () => $this->successAsyncLog(config('accept-code.logger_slugs.reset_password_set_new')),
+            fn (string $e) => $this->errorAsyncLog(config('accept-code.logger_slugs.reset_password_set_new'), $e)
         );
 
         return $user;

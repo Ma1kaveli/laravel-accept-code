@@ -60,8 +60,8 @@ class RegistrationAcceptCodeActions extends AcceptCodeActions {
             $updateCreateDTO,
             $user,
             'При отправке кода для подтверждения аккаунта произошла ошибка!',
-            fn () => $this->successLog(config('accept-code.logger_slugs.registration_send_code')),
-            fn (string $e) => $this->errorLog(config('accept-code.logger_slugs.registration_send_code'), $e),
+            fn () => $this->successAsyncLog(config('accept-code.logger_slugs.registration_send_code')),
+            fn (string $e) => $this->errorAsyncLog(config('accept-code.logger_slugs.registration_send_code'), $e),
         );
     }
 
@@ -89,8 +89,8 @@ class RegistrationAcceptCodeActions extends AcceptCodeActions {
         [ $accessToken, $refreshToken ] = $this->transactionConstructionWithFunc(
             $updateUser,
             'При потверждении аккаунта произошла ошибка!',
-            fn () => $this->successLog(config('accept-code.logger_slugs.registration')),
-            fn (string $e) => $this->errorLog(config('accept-code.logger_slugs.registration'), $e),
+            fn () => $this->successAsyncLog(config('accept-code.logger_slugs.registration')),
+            fn (string $e) => $this->errorAsyncLog(config('accept-code.logger_slugs.registration'), $e),
         );
 
         $this->writeAsyncLoginHistory($dto->request);

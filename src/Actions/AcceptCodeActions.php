@@ -14,11 +14,12 @@ use Crudler\Traits\DBTransaction;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use JWTAuth\JWTAuth;
+use Logger\Traits\AsyncLogger;
 use LoginHistory\Traits\LoginHistory;
 use Logger\Traits\Logger;
 
 class AcceptCodeActions {
-    use DBTransaction, JWTAuth, Logger, LoginHistory;
+    use DBTransaction, JWTAuth, AsyncLogger, Logger, LoginHistory;
 
     public AcceptCodeService $acceptCodeService;
 
