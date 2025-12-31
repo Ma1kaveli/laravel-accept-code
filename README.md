@@ -15,7 +15,11 @@
 
 - PHP 8.2 или выше
 - Laravel 10.10, 11.0 или 12.0
-- Пакет `makaveli/laravel-login-history` (версия ^1.0)
+- Пакет `makaveli/laravel-login-history` (версия ^1.1)
+- Пакет `makaveli/laravel-logger` (версия ^1.1)
+- Пакет `makaveli/laravel-jwt-auth` (версия ^1.1)
+- Пакет `makaveli/laravel-crudler` (версия ^1.1)
+- Пакет `makaveli/laravel-core` (версия ^1.0)
 
 ## Установка
 

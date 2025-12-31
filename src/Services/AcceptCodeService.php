@@ -4,9 +4,12 @@ namespace AcceptCode\Services;
 
 use AcceptCode\DTO\AcceptCodeFormDTO;
 use AcceptCode\Models\AcceptCode;
+use Core\Services\BaseService;
 
-class AcceptCodeService {
-    public function __construct() {}
+class AcceptCodeService extends BaseService {
+    public function __construct() {
+        parent::__construct(AcceptCode::class);
+    }
 
     /**
      * Добавление пользователя
@@ -15,9 +18,9 @@ class AcceptCodeService {
      *
      * @return AcceptCode
      */
-    public function create(AcceptCodeFormDTO $dto): AcceptCode
+    public function _create(AcceptCodeFormDTO $dto): AcceptCode
     {
-        return AcceptCode::create([
+        return $this->create([
             'credetinal' => $dto->credetinal,
             'code' => (string) rand(1000, 9999),
             'user_id' => $dto->userId,

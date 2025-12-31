@@ -7,13 +7,13 @@ use AcceptCode\DTO\AcceptCodeDTO;
 use AcceptCode\Models\AcceptCode;
 
 use Carbon\Carbon;
+use Core\Repositories\BaseRepository;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
-use QueryBuilder\Repositories\BaseRepository;
 
 class AcceptCodeRepository extends BaseRepository {
     public function __construct() {
-        parent::__construct(new AcceptCode());
+        parent::__construct(AcceptCode::class);
     }
 
     /**
@@ -26,7 +26,7 @@ class AcceptCodeRepository extends BaseRepository {
      * @return AcceptCode|null
      */
     public function getSendAcceptCodeByUserId(int $userId, string $credetinal, string $slug): AcceptCode|null {
-        return $this->model->where([
+        return $this->query()->where([
             ['credetinal', $credetinal],
             ['user_id', $userId],
             ['slug', $slug]
@@ -46,7 +46,7 @@ class AcceptCodeRepository extends BaseRepository {
         string $slug,
         ?string $code = null
     ): AcceptCode|null {
-        return $this->model->when(
+        return $this->query()->when(
             !empty($code),
             fn ($q) => $q->where('code', $code)
         )->where([

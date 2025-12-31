@@ -7,7 +7,11 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^10.10|^11.0|^12.0",
-        "makaveli/laravel-login-history": "^1.0"
+        "makaveli/laravel-login-history": "^1.1",
+        "makaveli/laravel-logger": "^1.1",
+        "makaveli/laravel-jwt-auth": "^1.1",
+        "makaveli/laravel-crudler": "^1.1",
+        "makaveli/laravel-core": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -15,24 +19,6 @@
             "AcceptCode\\Database\\": "src/Database/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Ma1kaveli/laravel-logger"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Ma1kaveli/laravel-query-builder"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Ma1kaveli/laravel-converter"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Ma1kaveli/laravel-login-history"
-        }
-    ],
     "extra": {
         "laravel": {
             "dont-discover": [],

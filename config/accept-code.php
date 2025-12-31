@@ -159,12 +159,12 @@ return [
     | Phone validation rule for requests
     |--------------------------------------------------------------------------
     */
-    'phone_validation_rule' => [\App\Modules\Base\Rules\ValidPhone::class, 'create'],
+    'phone_validation_rule' => [\Core\Rules\ValidPhone::class, 'create'],
 
     /*
     |--------------------------------------------------------------------------
     | Password validation rule for requests
     |--------------------------------------------------------------------------
     */
-    'password_validation_rule' => [\App\Modules\Base\Rules\ValidPassword::class, 'create'],
+    'password_validation_rule' => [\Core\Rules\ValidPassword::class, 'create'],
 ];
