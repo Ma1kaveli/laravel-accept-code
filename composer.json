@@ -7,11 +7,11 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^10.10|^11.0|^12.0",
-        "makaveli/laravel-login-history": "^1.1",
-        "makaveli/laravel-logger": "^1.1",
-        "makaveli/laravel-jwt-auth": "^1.1",
-        "makaveli/laravel-crudler": "^1.1",
-        "makaveli/laravel-core": "^1.0"
+        "makaveli/laravel-login-history": "^1.1.1",
+        "makaveli/laravel-logger": "^1.1.1",
+        "makaveli/laravel-jwt-auth": "^1.1.1",
+        "makaveli/laravel-crudler": "^1.1.1",
+        "makaveli/laravel-core": "^1.0.1"
     },
     "autoload": {
         "psr-4": {
