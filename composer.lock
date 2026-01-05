@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d81085a4b46af43fb0b31bb719cf4ffc",
+    "content-hash": "f45df362127fadbf7efe1315f01a41f7",
     "packages": [
         {
             "name": "brick/math",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "makaveli/laravel-core",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-core.git",
-                "reference": "bf8ced24c39819ef752a3c18ddb88c755600b6cc"
+                "reference": "ab4da27c42913ca6a839fc3c249249bfe01b21b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-core/zipball/bf8ced24c39819ef752a3c18ddb88c755600b6cc",
-                "reference": "bf8ced24c39819ef752a3c18ddb88c755600b6cc",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-core/zipball/ab4da27c42913ca6a839fc3c249249bfe01b21b8",
+                "reference": "ab4da27c42913ca6a839fc3c249249bfe01b21b8",
                 "shasum": ""
             },
             "require": {
@@ -2061,28 +2061,28 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-core/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-core/tree/1.0.0"
+                "source": "https://github.com/Ma1kaveli/laravel-core/tree/1.0.1"
             },
-            "time": "2025-12-27T19:31:17+00:00"
+            "time": "2026-01-02T13:33:41+00:00"
         },
         {
             "name": "makaveli/laravel-crudler",
-            "version": "1.1.0",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-crudler.git",
-                "reference": "58949df09d1343e654b1cd4fe5c3855ae5cb1d09"
+                "reference": "3750b548edb282501c9843843e0085acb07753a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-crudler/zipball/58949df09d1343e654b1cd4fe5c3855ae5cb1d09",
-                "reference": "58949df09d1343e654b1cd4fe5c3855ae5cb1d09",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-crudler/zipball/3750b548edb282501c9843843e0085acb07753a6",
+                "reference": "3750b548edb282501c9843843e0085acb07753a6",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^10.10|^11.0|^12.0",
-                "makaveli/laravel-core": "^1.0",
-                "makaveli/laravel-logger": "^1.1",
+                "makaveli/laravel-core": "^1.0.1",
+                "makaveli/laravel-logger": "^1.1.2",
                 "php": "^8.2"
             },
             "require-dev": {
@@ -2115,28 +2115,28 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-crudler/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-crudler/tree/1.1.0"
+                "source": "https://github.com/Ma1kaveli/laravel-crudler/tree/1.1.10"
             },
-            "time": "2025-12-31T15:18:53+00:00"
+            "time": "2026-01-05T18:09:49+00:00"
         },
         {
             "name": "makaveli/laravel-jwt-auth",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-jwt-auth.git",
-                "reference": "e56404c43e4c5ae7d6b4cf0e964f34020736fbde"
+                "reference": "eeb1cfa3b26368a8a635db96ec9266129eda6156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-jwt-auth/zipball/e56404c43e4c5ae7d6b4cf0e964f34020736fbde",
-                "reference": "e56404c43e4c5ae7d6b4cf0e964f34020736fbde",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-jwt-auth/zipball/eeb1cfa3b26368a8a635db96ec9266129eda6156",
+                "reference": "eeb1cfa3b26368a8a635db96ec9266129eda6156",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^10.10|^11.0|^12.0",
-                "makaveli/laravel-core": "^1.0",
-                "makaveli/laravel-logger": "^1.1",
+                "makaveli/laravel-core": "^1.0.1",
+                "makaveli/laravel-logger": "^1.1.2",
                 "php": "^8.2"
             },
             "require-dev": {
@@ -2170,28 +2170,28 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-jwt-auth/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-jwt-auth/tree/1.1.0"
+                "source": "https://github.com/Ma1kaveli/laravel-jwt-auth/tree/1.1.2"
             },
-            "time": "2025-12-30T16:00:13+00:00"
+            "time": "2026-01-05T18:05:48+00:00"
         },
         {
             "name": "makaveli/laravel-logger",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-logger.git",
-                "reference": "e7c50e8736b75e98f1cde3c17949ec16621a2468"
+                "reference": "dc90838916cbcc61ff245ac8db61f786dc6cd39a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-logger/zipball/e7c50e8736b75e98f1cde3c17949ec16621a2468",
-                "reference": "e7c50e8736b75e98f1cde3c17949ec16621a2468",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-logger/zipball/dc90838916cbcc61ff245ac8db61f786dc6cd39a",
+                "reference": "dc90838916cbcc61ff245ac8db61f786dc6cd39a",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^10.10|^11.0|^12.0",
-                "makaveli/laravel-core": "1.0.0",
-                "makaveli/laravel-query-builder": "1.1.0",
+                "makaveli/laravel-core": "1.0.1",
+                "makaveli/laravel-query-builder": "1.1.2",
                 "php": "^8.2"
             },
             "type": "library",
@@ -2220,28 +2220,28 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-logger/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-logger/tree/1.1.0"
+                "source": "https://github.com/Ma1kaveli/laravel-logger/tree/1.1.2"
             },
-            "time": "2025-12-29T18:13:38+00:00"
+            "time": "2026-01-05T17:59:44+00:00"
         },
         {
             "name": "makaveli/laravel-login-history",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-login-history.git",
-                "reference": "7e5a70c0314b4374f94a8a56f8d31b9e82fb258c"
+                "reference": "5123a1057e7bdb08ec8d01b505b98a3feb6ee31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-login-history/zipball/7e5a70c0314b4374f94a8a56f8d31b9e82fb258c",
-                "reference": "7e5a70c0314b4374f94a8a56f8d31b9e82fb258c",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-login-history/zipball/5123a1057e7bdb08ec8d01b505b98a3feb6ee31e",
+                "reference": "5123a1057e7bdb08ec8d01b505b98a3feb6ee31e",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^10.10|^11.0|^12.0",
-                "makaveli/laravel-logger": "^1.1",
-                "makaveli/laravel-query-builder": "^1.1",
+                "makaveli/laravel-logger": "^1.1.1",
+                "makaveli/laravel-query-builder": "^1.1.2",
                 "php": "^8.2"
             },
             "type": "library",
@@ -2270,27 +2270,27 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-login-history/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-login-history/tree/1.1.0"
+                "source": "https://github.com/Ma1kaveli/laravel-login-history/tree/1.1.2"
             },
-            "time": "2025-12-29T19:28:36+00:00"
+            "time": "2026-01-05T18:01:34+00:00"
         },
         {
             "name": "makaveli/laravel-query-builder",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-query-builder.git",
-                "reference": "af0002c1acd2f2923381ffce6cf6fdae5c6ad268"
+                "reference": "28d98c703ed12343c0f456798ccb62b2896d20d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-query-builder/zipball/af0002c1acd2f2923381ffce6cf6fdae5c6ad268",
-                "reference": "af0002c1acd2f2923381ffce6cf6fdae5c6ad268",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-query-builder/zipball/28d98c703ed12343c0f456798ccb62b2896d20d8",
+                "reference": "28d98c703ed12343c0f456798ccb62b2896d20d8",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^10.10|^11.0|^12.0",
-                "makaveli/laravel-core": "1.0.0",
+                "makaveli/laravel-core": "1.0.1",
                 "php": "^8.2"
             },
             "require-dev": {
@@ -2329,22 +2329,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-query-builder/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-query-builder/tree/1.1.0"
+                "source": "https://github.com/Ma1kaveli/laravel-query-builder/tree/1.1.2"
             },
-            "time": "2025-12-29T17:29:25+00:00"
+            "time": "2026-01-05T17:55:49+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "3.9.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6"
+                "reference": "b321dd6749f0bf7189444158a3ce785cc16d69b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/10d85740180ecba7896c87e06a166e0c95a0e3b6",
-                "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b321dd6749f0bf7189444158a3ce785cc16d69b0",
+                "reference": "b321dd6749f0bf7189444158a3ce785cc16d69b0",
                 "shasum": ""
             },
             "require": {
@@ -2362,7 +2362,7 @@
                 "graylog2/gelf-php": "^1.4.2 || ^2.0",
                 "guzzlehttp/guzzle": "^7.4.5",
                 "guzzlehttp/psr7": "^2.2",
-                "mongodb/mongodb": "^1.8",
+                "mongodb/mongodb": "^1.8 || ^2.0",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "php-console/php-console": "^3.1.8",
                 "phpstan/phpstan": "^2",
@@ -2422,7 +2422,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.9.0"
+                "source": "https://github.com/Seldaek/monolog/tree/3.10.0"
             },
             "funding": [
                 {
@@ -2434,7 +2434,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-24T10:02:05+00:00"
+            "time": "2026-01-02T08:56:05+00:00"
         },
         {
             "name": "nesbot/carbon",
