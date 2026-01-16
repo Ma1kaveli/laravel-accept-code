@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb7658cdfb2b686d6aaba60447547f51",
+    "content-hash": "8037a69ede10ce57f4bc1b638849f949",
     "packages": [
         {
             "name": "brick/math",
@@ -2067,16 +2067,16 @@
         },
         {
             "name": "makaveli/laravel-crudler",
-            "version": "1.1.11",
+            "version": "1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ma1kaveli/laravel-crudler.git",
-                "reference": "be504f537a64bc54c8387b4682d3f0bf87e3d6e1"
+                "reference": "77256cbe8b697b6cb033a81a6bab8bcb680788cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ma1kaveli/laravel-crudler/zipball/be504f537a64bc54c8387b4682d3f0bf87e3d6e1",
-                "reference": "be504f537a64bc54c8387b4682d3f0bf87e3d6e1",
+                "url": "https://api.github.com/repos/Ma1kaveli/laravel-crudler/zipball/77256cbe8b697b6cb033a81a6bab8bcb680788cf",
+                "reference": "77256cbe8b697b6cb033a81a6bab8bcb680788cf",
                 "shasum": ""
             },
             "require": {
@@ -2115,9 +2115,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Ma1kaveli/laravel-crudler/issues",
-                "source": "https://github.com/Ma1kaveli/laravel-crudler/tree/1.1.11"
+                "source": "https://github.com/Ma1kaveli/laravel-crudler/tree/1.1.12"
             },
-            "time": "2026-01-16T14:49:36+00:00"
+            "time": "2026-01-16T15:16:23+00:00"
         },
         {
             "name": "makaveli/laravel-jwt-auth",

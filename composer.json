@@ -10,7 +10,7 @@
         "makaveli/laravel-login-history": "^1.1.2",
         "makaveli/laravel-logger": "^1.1.2",
         "makaveli/laravel-jwt-auth": "^1.1.2",
-        "makaveli/laravel-crudler": "^1.1.11",
+        "makaveli/laravel-crudler": "^1.1.12",
         "makaveli/laravel-core": "^1.0.1"
     },
     "autoload": {
